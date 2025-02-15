@@ -1,6 +1,6 @@
 # drawing a tower (castle)
 from turtle import*
-speed (10)
+speed (1000)
 color ("cyan")
 begin_fill ()
 width (100)
