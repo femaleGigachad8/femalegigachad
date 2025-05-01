@@ -7,5 +7,5 @@ for i in range (1, 101):
     if i % 2 == 0:
         sum = sum + i 
         count += 1
-print (sum//count)
+print (sum//count) 
 
