@@ -1,0 +1,62 @@
+<!-- 2) კომენტარებით ახსენით რა არის select, option თეგები და ჩამოთვალეთ რომელი 
+ატრიბუტები გამოიყენება ჩამოსაშლელი მენიუს შესაქმნელად.
+
+
+select არის კონტეინერი თეგი რომელიც მომხმარბელს აძლევს საშუალებას აირჩიოს ერთ-ერთი ჩამოთვლილებიდან.
+უფრო მარტივად, select ქმნის dropdown მენიუს სადაც მომხმარებელი აირჩევს სასურველ არჩევანს. 
+
+option თეგი უნდა მოთავსდეს select-ში რომ მომხმარებელმა აირჩიოს სასურველი არჩევანი
+
+option თეგს შეგვიძლია გავუწეროთ selected ატრიბუტი. ამ ატრიბუტის ხდება pre-select და შემდეგ მომხმარებელი
+შეცვლის არჩევანს საჭიროებისამებრ. -->
+
+
+
+
+<!-- 3) კომენტარებით ახსენით, როგორ ხდება input/select ელემენტის დაკავშირება label-თან.
+
+label-ების გამოყენებით იზრდება Click-ის არეალი. 
+input-ს ან select-ს უნდა გავუწეროთ id ატრიბუტი შემდეგ უნდა შევქმნათ label თეგი რომელსაც დავაკავშირებთ 
+input ან selectთან for ატრიბუტის გამოყენებით. for და id ატრიბუტებს შესაბამისად უნდა ჰქონდეთ ერთნაირი მნიშვნელობა. -->
+
+
+
+
+4) შექმენით ვალუტის გაცვლის საიტი, სადაც მომხმარებელს აარჩევინებთ ორ ვალუტას.
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            ვალუტის გადაცვლა
+        </title>
+    </head>
+    
+    <body>
+    <h2>ვალუტის გადაცვლის ფორმა</h2>
+
+    <form>
+        <label for="from-currency">აირჩიეთ საწყისი ვალუტა:</label>
+        <select id="from-currency" name="from-currency">
+        <option value="usd">დოლარი (USD)</option>
+        <option value="eur">ევრო (EUR)</option>
+        <option value="gel">ლარი (GEL)</option>
+        <option value="gbp">ფუნტი სტერლინგი (GBP)</option>
+        </select>
+
+        <br><br>
+
+        <label for="to-currency">აირჩიეთ სამიზნე ვალუტა:</label>
+        <select id="to-currency" name="to-currency">
+        <option value="usd">დოლარი (USD)</option>
+        <option value="eur">ევრო (EUR)</option>
+        <option value="gel">ლარი (GEL)</option>
+        <option value="gbp">ფუნტი სტერლინგი (GBP)</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">გადაცვლა</button>
+    </form>
+    </body>
+</html>
