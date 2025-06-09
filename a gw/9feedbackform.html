@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feedback Form</title>
+    </head>
+    <body>
+        <h2 style="color: rgb(255, 0, 0); font-size: 28px;">Feedback Form</h2>
+        <form>
+            <label for="name" style="font-size: 16px; color: #1100ff;">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label style="font-size: 16px; color: #1100ff;">Which foods would you try?</label><br>
+            <input type="checkbox" id="ღვინო" name="food" value="ღვინო">
+            <label for="ღვინო">ღვინო</label><br>
+
+            <input type="checkbox" id="ხინკალი" name="foods" value="ხინკალი">
+            <label for="ხინკალი">ხინკალი</label><br>
+
+            
+            <label for="place" style="font-size: 16px; color: #1100ff;">Where would you go first?</label><br>
+            <select id="place" name="place">
+                <option value="უფლისციხე">უფლისციხე</option>
+                <option value="ბატეთის ტბა">ბატეთის ტბა</option>
+            </select><br><br>
+
+            <label for="thoughts" style="font-size: 16px; color: #1100ff;">What do you think about Qartli?</label><br>
+            <textarea id="thoughts" name="thoughts" rows="4" cols="40"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        <p>
+            <b>
+                ტური ქართლში: 400ლარი (დღე-ღამე)
+            </b>
+            <button>
+                ყიდვა
+            </button>
+        </p>
+    </body>
+</html>

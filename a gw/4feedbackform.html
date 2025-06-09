@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feedback Form</title>
+    </head>
+    <body>
+        <h2 style="color: rgb(255, 0, 0); font-size: 28px;">Feedback Form</h2>
+        <form>
+            <label for="name" style="font-size: 16px; color: #1100ff;">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label style="font-size: 16px; color: #1100ff;">Which foods would you try?</label><br>
+            <input type="checkbox" id="იმერული ხაჭაპური" name="food" value="იმერული ხაჭაპური">
+            <label for="იმერული ხაჭაპური">იმერული ხაჭაპური</label><br>
+
+            <input type="checkbox" id="ლობიო" name="foods" value="ლობიო">
+            <label for="ლობიო">ლობიო</label><br>
+
+            
+            <label for="place" style="font-size: 16px; color: #1100ff;">Where would you go first?</label><br>
+            <select id="place" name="place">
+                <option value="პერევისის წმ. გიორგის ეკლესია">პერევისის წმ. გიორგის ეკლესია</option>
+                <option value="ვანის ნაქალაქარი (ვანის არქეოლოგიური მუზეუმი)">ვანის ნაქალაქარი (ვანის არქეოლოგიური მუზეუმი)</option>
+            </select><br><br>
+
+            <label for="thoughts" style="font-size: 16px; color: #1100ff;">What do you think about Imereti?</label><br>
+            <textarea id="thoughts" name="thoughts" rows="4" cols="40"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        <p>
+            <b>
+                ტური იმერეთში: 400ლარი (დღე-ღამე)
+            </b>
+            <button>
+                ყიდვა
+            </button>
+        </p>
+    </body>
+</html>

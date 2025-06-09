@@ -6,7 +6,7 @@ surname = "my surname is marjanidze."
 # print (name) 
 # print funqcias gadaecema ekranze gamosatani obieqti
 #name = "tekla" # es aris stringi. str tipis cvladi
-age = "i'm 13yrs old." #integeri mteli ricxvi.
+age = "i'm 14yrs old." #integeri mteli ricxvi.
 height = "i am 150cm tall." #es aris float tipis cvladi (atwiladi)
 #boolean bool tipis cvladi
 knows_programming = True #sheidzleba iyos false c
