@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(53, 53, 61);
+}
+h1{
+    color: rgb(84, 207, 84); 
+    text-align: center; text-shadow: 3px 3px 5px rgb(240, 243, 240);
+    font-family: Georgia;
+}
+
+#p {
+    font-family: Verdana; 
+    color: white;
+    font-size: 25px;
+}
+
+img{
+    border:3px solid rgb(84, 207, 84);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+#p2{
+    color: rgb(84, 207, 84) ;
+    text-align: center;
+    border:2px solid rgb(84, 207, 84) ;
+    
+}
+
+#p3{
+    color: rgb(84, 207, 84);
+    text-align: center;
+    margin: 50px;
+}
+#h2 {
+    color: rgba(9, 13, 250, 0.836); 
+    text-shadow: 3px 3px 5px white ;    
+}
+h3{
+    color:chartreuse
+}
