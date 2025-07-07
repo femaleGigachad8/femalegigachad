@@ -1,0 +1,13 @@
+div h1{
+    color: crimson;
+    font-size: 50px;
+}
+
+div p {
+    background-color: aqua;
+}
+
+div button {
+    border: solid 2px crimson;
+    border-radius: 30px;
+}
